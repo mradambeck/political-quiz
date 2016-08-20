@@ -2,9 +2,10 @@ var mongoose = require("mongoose");
 var Schema = mongoose.Schema;
 
 var QuestionSchema = new Schema({
-  title: String,
-  short_description: String,
-  long_description: String
+  question: String,
+  image: String,
+  isProgressive: Boolean,
+  infoLink: String
 });
 
 var Question = mongoose.model('Question', QuestionSchema);

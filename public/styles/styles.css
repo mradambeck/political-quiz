@@ -1,3 +1,17 @@
+.card {
+  border: 1px solid grey;
+  text-align: center; }
+  .card img {
+    max-height: 50vh;
+    max-width: 100%;
+    margin-bottom: 20px; }
+  .card p {
+    font-size: 18px; }
+  .card .title {
+    background-color: black;
+    color: #ffffff; }
 
+.top-margin {
+  margin-top: 20px; }
 
 /*# sourceMappingURL=styles.css.map */
