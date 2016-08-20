@@ -1,1 +1,1 @@
-module.exports.api = require('./questionsController');
+module.exports.questions = require('./questionsController');
