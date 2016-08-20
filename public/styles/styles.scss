@@ -4,7 +4,14 @@ $title:  black;
 // div {
 //   border: 1px dotted grey;
 // }
-
+.buttons {
+  width: 200px;
+  margin: auto;
+}
+.btn-vote {
+  border-radius: 100px;
+  margin: 23px;
+}
 .card {
   border: 1px solid $border;
   text-align: center;
