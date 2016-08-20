@@ -30,9 +30,9 @@ function QuizIndexController ( $http ){
       vm.count += 1;
       vm.currentQuestion = vm.quizQuestions[vm.count];
       if (isProgressive) {
-        vm.progressiveCount++;
+        progressiveCount++;
       }
     }
-
+    console.log('progVotes: ', progressiveCount);
   };
 }
