@@ -1,0 +1,22 @@
+{
+  "name": "political-quiz",
+  "version": "0.0.0",
+  "homepage": "",
+  "authors": [
+    ""
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "bootstrap-sass-official": "~3.1.1",
+    "angular": "~1.5.3",
+    "angular-bootstrap": "~1.1.2",
+    "font-awesome": ">=4.1.0",
+    "angular-route": "~1.5.3"
+  }
+}
